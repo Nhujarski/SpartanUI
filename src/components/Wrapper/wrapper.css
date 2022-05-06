@@ -1,0 +1,23 @@
+.sui-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sui-wrapper-medium {
+  width: 50vw;
+  height: 50vh;
+}
+
+.sui-wrapper-large {
+  width: 100vw;
+  height: 100vh;
+}
+
+.sui-wrapper-light {
+  background: white;
+}
+
+.sui-wrapper-dark {
+  background: black;
+}
