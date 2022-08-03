@@ -1,0 +1,64 @@
+.sui-nav-bar {
+  position: relative;
+}
+
+.sui-nav-bar button {
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  z-index: 10;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.sui-menu {
+  list-style: none;
+  position: fixed;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
+  width: 0; /* set width of closed class */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sui-menu.showMenu {
+  height: 100%; /* 100% Full-height */
+  width: 250px; /* 250px width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background: rgb(116, 128, 103);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: rgb(244, 236, 214);
+  text-transform: uppercase;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a:hover {
+  color: rgb(252, 249, 243);
+  text-decoration: underline;
+}
+
+.sui-menu li:first-child {
+  margin-top: 7rem;
+}
+
+.sui-menu-icon {
+  height: 20px;
+  width: 20px;
+  fill: rgb(244, 236, 214);
+}
+
+.sui-menu-icon path {
+  stroke: rgb(244, 236, 214);
+}

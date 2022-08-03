@@ -1,21 +1,23 @@
 .sui-input {
   border-radius: 6px;
-  border: 2px solid #ff019a;
+  border: 1px solid #3f2f2f;
   height: 45px;
   padding-left: 10px;
 }
 
 .sui-input:focus-visible {
   outline: none;
-  border: 2px solid #f77ec6;
+  border: 1px solid #ff9090;
 }
 
 .sui-input-light {
-  background: #faeefa;
+  background: white;
+  color: #3f2f2f;
 }
 
 .sui-input-dark {
-  background: #012346;
+  background: #3f2f2f;
+  color: #ff9090;
 }
 
 .sui-input-small {

@@ -8,11 +8,11 @@
 }
 
 .sui-icon g path {
-  stroke: grey;
+  stroke: #3f2f2f;
 }
 
 .sui-icon rect {
-  fill: grey;
+  fill: #3f2f2f;
 }
 
 .sui-icon-small {
@@ -34,7 +34,7 @@
   display: block;
   margin-top: 4px;
   font-weight: lighter;
-  color: grey;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ff9090;
+  font-family: 'Montserrat Alternates', sans-serif;
   margin-left: 10px;
 }

@@ -1,5 +1,5 @@
 .sui-button {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 700;
   border-radius: 20px;
   cursor: pointer;
@@ -8,22 +8,22 @@
 }
 .sui-button--primary {
   color: white;
-  background-color: #290cff;
-  border: 1px solid #290cff;
+  background-color: #ff9090;
+  border: 1px solid #ff9090;
 }
 .sui-button--primary:hover {
-  background-color: #0161e8;
-  border: 1px solid #0161e8;
+  background-color: #fca9a9;
+  border: 1px solid #fca9a9;
 }
 
 .sui-button--secondary {
-  color: #333;
+  color: #3f2f2f;
   background-color: transparent;
-  border: 1px solid lightgray;
+  border: 1px solid #3f2f2f;
 }
 .sui-button--secondary:hover {
-  border: 1px solid #0161e8;
-  color: #0161e8;
+  border: 1px solid #ff9090;
+  color: #ff9090;
 }
 
 .sui-button--small {
