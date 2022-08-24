@@ -1,36 +1,62 @@
+/* primary color: #86916C */
+/* secondary color: #C5C5C5*/
+/* trimary color: #CD8106 */
+
 .sui-card {
-  width: 50%;
-  height: 75%;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 10px;
-  border: 1px solid seagreen;
   border-radius: 8px;
-  box-shadow: 10px 5px 20px 2px;
+  box-shadow: 10px 12px 25px 2px darkgrey;
 }
 
 .sui-card:hover {
-  transform: scale(1.1);
+  box-shadow: 8px 12px 30px 2px grey;
+}
+
+.sui-card-small {
+  width: 200px;
+  height: 200px;
+}
+
+.sui-card-medium {
+  width: 300px;
+  height: 300px;
+}
+
+.sui-card-large {
+  width: 400px;
+  height: 400px;
 }
 
 .sui-card-header-container {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
+  align-items: center;
   width: 100%;
-  height: 25%;
+  height: 20%;
   padding: 5px;
+  border-bottom: 1px solid #86916c;
+}
+
+.sui-card-header {
+  color: #86916c;
+  font-size: 30px;
 }
 
 .sui-card-body-container {
   display: flex;
   justify-content: center;
-  border: 1px solid rebeccapurple;
-  margin: 5px 0;
-  height: 50%;
+  height: 45%;
   width: 100%;
   padding: 5px;
+  border-bottom: 1px solid #86916c;
+}
+
+.sui-card-body {
+  height: 100%;
+  width: 100%;
 }
 
 .sui-card-footer-container {
@@ -38,6 +64,14 @@
   justify-content: center;
   border: 1px solid orange;
   width: 100%;
-  height: 25%;
+  height: 20%;
   padding: 5px;
+}
+
+.sui-card-footer {
+  color: #86916c;
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+  overflow: hidden;
 }
